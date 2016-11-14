@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+.tile-area-controls {
+	position: fixed;
+	right: 4%;
+	top: 4%;	
+}
+
+body {
+	height: 100%;
+}
+
+@media screen and (max-width: 640px) {
+	.tile-area {
+		overflow-y: scroll;		
+	}	
+}
+
+@media screen and (max-width: 320px) {
+	.tile-area {
+		overflow-y: scroll;
+	}	
+}

@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+body {
+	background-image: url("../images/bg_landing.gif");
+	background-repeat: repeat;	
+}
+
+.login-form {
+	width: 25rem;
+	height: 18.75rem;
+	position: relative;
+	margin-top: 5%;
+	left: 50%;
+	margin-left: -12.5rem;
+	background-color: #ffffff;
+	opacity: 0;
+	-webkit-transform: scale(.8);
+	transform: scale(.8);
+}
+
+.mainTitle{
+padding-top: 5%;
+}
+

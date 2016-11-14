@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.error {
+	color: red;
+}
+
+.carpet {
+	background-image: url("../images/bg_userpage.png");
+	background-repeat: repeat;
+}
+
+.page-content {
+	padding-top: 50px;
+}
+
+#cell-sidebar {
+	height: 100%;
+}
